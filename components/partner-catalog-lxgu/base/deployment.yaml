@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-lxgu
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ssadeghi-tenant/partner-catalog/partner-catalog-lxgu@sha256:b4bd3676b4763fc5f7f2cdb65dc082cf7b80499525b6235133f370fffb4238f1
+      - image: quay.io/redhat-user-workloads/ssadeghi-tenant/partner-catalog/partner-catalog-lxgu@sha256:1b0f7690d83fff7e00cf56bdbc280100819109b7e65e355af5713330f121eda5
         name: my-java-springboot
         ports:
         - containerPort: 8081
